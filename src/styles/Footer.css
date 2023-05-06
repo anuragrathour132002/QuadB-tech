@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footerDiv {
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    background-color: black;
+    color: #7D7F80;
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; */
+}
+
+.footerDiv p {
+    margin-bottom: 0;
+}

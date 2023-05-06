@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    overflow-x: hidden;
+    margin-bottom: 2rem;
+    background: transparent;
+}
+
+.active {
+    background-color: white;
+    box-shadow: 0 8px 8px -7px #b4afaf;
+}
+
+.nav-link {
+    background: transparent;
+}
+
+.scrolled {
+    color: black !important;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 600px) {
+    .loginBtn {
+        width: 5rem;
+    }
+}

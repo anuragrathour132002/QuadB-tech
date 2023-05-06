@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bookingDiv {
+    padding-top: 7rem;
+    height: 90vh;
+    background: #05090B;
+}
+
+.bookingDiv form {
+    height: 27rem;
+    width: 28rem;
+    padding: 2rem;
+    padding-top: 4rem;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.bookingDiv form button {
+    width: 100%;
+    margin-top: 1rem;
+}
